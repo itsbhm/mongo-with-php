@@ -100,7 +100,7 @@ To get documents with condition:
 Condition Statement: Get all the students where class should be grater than 9. using **$gt**.
 
 ```
-db.students.find(Class: {$gt: 9})
+db.students.find({Class: {$gt: 9}})
 ```
 
 To get specific fields:
