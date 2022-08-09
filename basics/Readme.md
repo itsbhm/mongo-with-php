@@ -1,7 +1,7 @@
 Stage A:\
 Topic: Introduction to MongoDB
 
--> A Simple note about mongodb is "MongoDB is non relational database. MongoDB stores "documents" in "collections".
+-> A Simple note about mongodb is "MongoDB is a non relational database. MongoDB stores "documents" in "collections".
 
 -> Stored documents will be in JSON Format.
 
