@@ -92,6 +92,7 @@ db.students.insertOne({name: "Rahul", Class: 9})
 ```
 
 Note:  Use insertOne, insertMany, or bulkWrite for inserting records.
+
 ----
 
 To get documents with condition:
