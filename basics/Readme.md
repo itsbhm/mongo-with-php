@@ -39,6 +39,7 @@ To check the version of install MongoDB Version: mongod --version
 
 Note: The installation guide will work only Windows Operating System.
 
+-----
 
 Setup Database Folder:
 
