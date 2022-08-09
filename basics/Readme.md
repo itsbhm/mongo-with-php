@@ -1,7 +1,7 @@
 Stage A:\
 Topic: Introduction to MongoDB
 
--> A Simple note about mongodb is "MongoDB is a non relational database. MongoDB stores "documents" in "collections".
+-> A Simple note about mongodb is "MongoDB is a non relational database. And about the architecture MongoDB stores "documents" in "collections".
 
 -> Stored documents will be in JSON Format.
 
@@ -50,5 +50,5 @@ For mac users Create **db** folder in **Macintosh HD** under the data folder.
 
 -----
 Stage C:\
-Topic: MongoDB architecture
+Topic: Query commands
 
