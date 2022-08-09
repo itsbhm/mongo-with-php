@@ -44,7 +44,7 @@ Setup Database Folder:
 
 data/db
 
-For windows users Create **db** folder in **C:/** drive under the data folder., or/
+For windows users Create **db** folder in **C:/** drive under the data folder.,\
 For mac users Create **db** folder in **Macintosh HD** under the data folder.
 
 -----
