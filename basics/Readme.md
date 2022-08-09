@@ -52,3 +52,81 @@ For mac users Create **db** folder in **Macintosh HD** under the data folder.
 Stage C:\
 Topic: Query commands
 
+To get all the available list of database:
+
+```
+show dbs
+```
+
+To create and switch to a new DB:
+
+```
+use collegedb
+```
+
+To create a new collection:
+
+```
+db.createCollection('students')
+```
+
+To insert document into the collection:
+
+```
+db.students.insert({name: "Kiram, Class: 8})
+```
+
+To view all available documents:
+
+```
+db.students.find()
+```
+
+----
+
+Let's add more documents:
+
+```
+db.students.insert({name: "Kashish, Class: 12})
+db.students.insert({name: "Rahul, Class: 9})
+```
+
+----
+
+To get documents with condition:
+
+Condition Statement: Get all the students where class should be grater than 9. using **$gt**.
+
+```
+db.students.find(age: {$gt: 9})
+```
+
+To get specific fields:
+
+```
+db.students.find({}, {class: 1})
+```
+
+> To hide some fields:
+
+```
+db.students.find({}, {class: 1, _id: 0})
+```
+
+To short the results (**Ascending Order**):
+
+```
+db.students.find({}, {class: 1, _id: 0}).short({class: 1})
+```
+
+To short the results (**Descending Order**):
+
+```
+db.students.find({}, {class: 1, _id: 0}).short({class: -1})
+```
+
+To limit the no of results:
+
+```
+db.students.find().limit(2)
+```
