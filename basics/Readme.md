@@ -73,7 +73,7 @@ db.createCollection('students')
 To insert document into the collection:
 
 ```
-db.students.insertOne({name: "Kiran", Class: 8})
+db.students.insertOne({name: "Kiran", class: 8})
 ```
 
 To view all available documents:
@@ -87,8 +87,8 @@ db.students.find()
 Let's add more documents:
 
 ```
-db.students.insertOne({name: "Kashish", Class: 12})
-db.students.insertOne({name: "Rahul", Class: 9})
+db.students.insertOne({name: "Kashish", class: 12})
+db.students.insertOne({name: "Rahul", class: 9})
 ```
 
 Note:  Use insertOne, insertMany, or bulkWrite for inserting records.
@@ -100,7 +100,7 @@ To get documents with condition:
 Condition Statement: Get all the students where class should be grater than 9. using **$gt**.
 
 ```
-db.students.find({Class: {$gt: 9}})
+db.students.find({class: {$gt: 9}})
 ```
 
 To get specific fields:
