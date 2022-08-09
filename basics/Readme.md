@@ -39,6 +39,14 @@ To check the version of install MongoDB Version: mongod --version
 
 Note: The installation guide will work only Windows Operating System.
 
+
+Setup Database Folder:
+
+data/db
+
+For windows users Create **db** folder in **C:/** drive under the data folder., or/
+For mac users Create **db** folder in **Macintosh HD** under the data folder.
+
 -----
 Stage C:\
 Topic: MongoDB architecture
