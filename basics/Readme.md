@@ -13,17 +13,17 @@ Topic: Introduction to MongoDB
 
 Sample Code: 
 
-
-{\
-    "name": "Ankita Kaur",\
-    "class": 8,\
-    "skills": ["Hindi Writing", "Speech"],\
-    "courses": {\
-        "course_name": "Java",\
-        "validity": 180\
-    }\
+```
+{
+    "name": "Ankita Kaur",
+    "class": 8,
+    "skills": ["Hindi Writing", "Speech"],
+    "courses": {
+        "course_name": "Java",
+        "validity": 180
+    }
 }
-
+```
 -----
 Stage B:\
 Topic: Installation of MongoDB
