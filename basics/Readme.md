@@ -73,7 +73,7 @@ db.createCollection('students')
 To insert document into the collection:
 
 ```
-db.students.insert({name: "Kiran", Class: 8})
+db.students.insertOne({name: "Kiran", Class: 8})
 ```
 
 To view all available documents:
@@ -87,10 +87,11 @@ db.students.find()
 Let's add more documents:
 
 ```
-db.students.insert({name: "Kashish", Class: 12})
-db.students.insert({name: "Rahul", Class: 9})
+db.students.insertOne({name: "Kashish", Class: 12})
+db.students.insertOne({name: "Rahul", Class: 9})
 ```
 
+Note:  Use insertOne, insertMany, or bulkWrite for inserting records.
 ----
 
 To get documents with condition:
