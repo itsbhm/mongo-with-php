@@ -132,3 +132,73 @@ To limit the no of results:
 ```
 db.students.find().limit(2)
 ```
+
+----
+
+To update document:
+
+Note: Use updateOne, updateMany, or bulkWrite to update the collection.
+
+> db.collection.update(search term, new data you wants to update)
+
+To update one document:
+
+```
+db.students.updateOne({}, {$set: {language: "english"}})
+```
+
+To update many documents:
+
+```
+db.students.updateMany({}, {$set: {language: "english"}})
+```
+
+To update specific document:
+
+```
+db.students.update({name: "Rahul"}, {$set:{language: "hindi"}})
+```
+
+To unset document:
+
+```
+db.students.updateMany({}, {$unset: {language: ""}})
+```
+
+To replace document:
+
+```
+db.students.update({name: "Rahul"}, {$set:{name: "Vinay Kumar", favorite_color: "black"}})
+```
+
+----
+
+To remove a document:
+
+Note: Use deleteOne, deleteMany, findOneAndDelete, or bulkWrite.
+
+```
+db.students.deleteOne({name: "Kiran"})
+```
+
+To remove all documents:
+
+```
+db.students.deleteMany({})
+```
+
+----
+
+To drop a collection:
+
+```
+db.students.drop()
+```
+
+----
+
+To show all available collections:
+
+```
+show collections
+```
