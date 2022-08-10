@@ -115,16 +115,16 @@ db.students.find({}, {class: 1})
 db.students.find({}, {class: 1, _id: 0})
 ```
 
-To short the results (**Ascending Order**):
+To sort the results (**Ascending Order**):
 
 ```
-db.students.find({}, {class: 1, _id: 0}).short({class: 1})
+db.students.find({}, {class: 1, _id: 0}).sort({class: 1})
 ```
 
-To short the results (**Descending Order**):
+To sort the results (**Descending Order**):
 
 ```
-db.students.find({}, {class: 1, _id: 0}).short({class: -1})
+db.students.find({}, {class: 1, _id: 0}).sort({class: -1})
 ```
 
 To limit the no of results:
