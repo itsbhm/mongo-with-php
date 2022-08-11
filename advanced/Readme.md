@@ -19,24 +19,20 @@ Example 2: courses and institution
 <tbody>
   <tr>
     <td>
-
-    ```
+    <pre>
      {
        _id: "C200543210",
        name: "Delhi University"
      }
-     ```
-
+     </pre>
     </td>
     <td>
-
-    ```
+    <pre>
      {
        _id: "C200543210",
        name: "Delhi University"
      }
-     ```
-     
+     </pre>
     </td>
   </tr>
 </tbody>
