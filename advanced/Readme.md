@@ -72,7 +72,7 @@ Example 2: Articles and Comments
 }
 ```
 
-Code checks: ![Syntax Validation](https://img.shields.io/badge/Syntax%20Validation-Passed-brightgreen)
+####Code checks: ![Syntax Validation](https://img.shields.io/badge/Syntax%20Validation-Passed-brightgreen)
 
 Note: This is not a good way to use One to many relation, we can't simply update the vote counter or available document in comment portion.
 
