@@ -72,6 +72,8 @@ Example 2: Articles and Comments
 }
 ```
 
+Code checks: ![Code Status](https://img.shields.io/badge/Code%20Test-Passed-brightgreen)
+
 Note: This is not a good way to use One to many relation, we can't simply update the vote counter or available document in comment portion.
 
 > Let's implement the best practices to do the same .. 
