@@ -13,3 +13,32 @@ Example 2: courses and institution
 |:-------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------:|
 | {     _id: "C200543210",    name: "Delhi University"  } | {      _id: "S201107200306",     collegeID: "C200543210",     street: "One Way, University Road",     city: "New Delhi",     country: "India" } |
 
+
+<table>
+<thead>
+  <tr>
+    <th>college</th>
+    <th>students</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>
+    ```
+     {
+       _id: "C200543210",
+       name: "Delhi University"
+     }
+     ```
+    </td>
+    <td>
+     ```
+     {
+       _id: "C200543210",
+       name: "Delhi University"
+     }
+     ```
+    </td>
+  </tr>
+</tbody>
+</table>
