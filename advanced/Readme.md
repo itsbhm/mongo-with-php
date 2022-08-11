@@ -6,5 +6,5 @@
 
 Let's learn more from such examples:
 
-Example 1: college and students
+Example 1: college and students\
 Example 2: courses and institution
