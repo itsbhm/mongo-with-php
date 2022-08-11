@@ -26,6 +26,8 @@ Example 2: courses and institution
      }
      
     </td>
+    </tr>
+    <tr>
     <td>
      
      {
