@@ -79,7 +79,7 @@ Example 2: Articles and Comments
         Code checks:
     </td>
     <td>
-        ![Syntax Validation](https://img.shields.io/badge/Syntax%20Validation-Passed-brightgreen)
+        <img src="https://img.shields.io/badge/Syntax%20Validation-Passed-brightgreen" alt="syntax-check-status">
     </td>
   </tr>
 </tbody>
