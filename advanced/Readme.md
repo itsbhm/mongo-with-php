@@ -32,7 +32,7 @@ Example 2: courses and institution
     _id: "S201107200306",
     collegeID: "C200543210",
     street: "One Way, University Road",
-    city: "New Delhi"
+    city: "New Delhi",
     country: "India"
 }
      </pre>
