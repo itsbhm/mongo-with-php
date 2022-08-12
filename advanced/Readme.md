@@ -123,15 +123,15 @@ db.comments.find({"articleId": "A86925"})
         "upvotes": 10,
         "downvotes": 4,
         "articleId": "A86925"
-	},
+    },
 
-	{
+    {
         "_id": "C1002",
         "body": "This is a second comment.",
         "upvotes": 18,
         "downvotes": 6,
         "articleId": "A86925"
-	}
+    }
 ]
      </pre>
     </td>
