@@ -117,7 +117,8 @@ db.comments.find({"articleId": "A86925"})
     </td>
     <td>
     <pre>
-[{
+[   
+    {
         "_id": "C1001",
         "body": "This is a first comment.",
         "upvotes": 10,
