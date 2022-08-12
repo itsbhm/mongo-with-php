@@ -7,8 +7,7 @@
 Let's learn more from such examples:
 
 Example 1: college and students\
-Example 2: Articles and Comments\
-Example 3: courses and institutions
+Example 2: Articles and Comments
 
 ----
 ### i). One to one relationships (1:1)
