@@ -168,42 +168,42 @@ db.comments.find({"tags": "dm"})
   <tr>
     <td>
     <pre>
-[ 
-  {
-		"_id": "C1001",
-		"body": "This is a first comment.",
-		"tags": [
-			"T777",
-			"T888",
-			"T999"
-		]
-	},
-	{
-		"_id": "C1002",
-		"body": "This is a second comment.",
-		"tags": [
-			"T777",
-			"T888"
-		]
-	}
+[
+   {
+      "_id":"C1001",
+      "body":"This is a first comment.",
+      "tags":[
+         "T777",
+         "T888",
+         "T999"
+      ]
+   },
+   {
+      "_id":"C1002",
+      "body":"This is a second comment.",
+      "tags":[
+         "T777",
+         "T888"
+      ]
+   }
 ]
      </pre>
     </td>
     <td>
     <pre>
 [
-  {
-		"_id": "T777",
-		"tagName": "Digital Marketing"
-	},
-	{
-		"_id": "T888",
-		"tagName": "Core Java"
-	},
-	{
-		"_id": "T999",
-		"tagName": "NoSQL DB"
-	}
+   {
+      "_id":"T777",
+      "tagName":"Digital Marketing"
+   },
+   {
+      "_id":"T888",
+      "tagName":"Core Java"
+   },
+   {
+      "_id":"T999",
+      "tagName":"NoSQL DB"
+   }
 ]
      </pre>
     </td>
