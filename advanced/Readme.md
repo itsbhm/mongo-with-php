@@ -210,3 +210,16 @@ db.comments.find({"tags": "T888"})
   </tr>
 </tbody>
 </table>
+
+<table>
+<tbody>
+  <tr>
+    <td>
+        Code checks:
+    </td>
+    <td>
+        <img src="https://img.shields.io/badge/Syntax%20Validation-Passed-brightgreen" alt="syntax-check-status">
+    </td>
+  </tr>
+</tbody>
+</table>
