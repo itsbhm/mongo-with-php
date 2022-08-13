@@ -160,7 +160,7 @@ Note: In this presented code bock each comment have reference to article. Now we
 Code for fetching tags:
 
 ```
-db.comments.find({"tags": "dm"})
+db.comments.find({"tags": "T888"})
 ```
 
 <table>
