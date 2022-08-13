@@ -153,3 +153,59 @@ db.comments.find({"articleId": "A86925"})
 </table>
 
 Note: In this presented code bock each comment have reference to article. Now we can easily update and access any comment. 
+
+
+### iii). Many to many relationships (N:N)
+
+Code for fetching tags:
+
+```
+db.comments.find({"tags": "dm"})
+```
+
+<table>
+<tbody>
+  <tr>
+    <td>
+    <pre>
+[{
+		"_id": "C1001",
+		"body": "This is a first comment.",
+		"tags": [
+			"T777",
+			"T888",
+			"T999"
+		]
+	},
+	{
+		"_id": "C1002",
+		"body": "This is a second comment.",
+		"tags": [
+			"T777",
+			"T888"
+		]
+	}
+]
+     </pre>
+    </td>
+    <td>
+    <pre>
+[{
+		"_id": "T777",
+		"tagName": "Digital Marketing"
+	},
+	{
+		"_id": "T888",
+		"tagName": "Core Java"
+	},
+	{
+		"_id": "T999",
+		"tagName": "NoSQL DB"
+	}
+
+]
+     </pre>
+    </td>
+  </tr>
+</tbody>
+</table>
