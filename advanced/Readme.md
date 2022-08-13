@@ -168,7 +168,7 @@ db.comments.find({"tags": "dm"})
   <tr>
     <td>
     <pre>
-[{
+[ {
 		"_id": "C1001",
 		"body": "This is a first comment.",
 		"tags": [
@@ -190,7 +190,7 @@ db.comments.find({"tags": "dm"})
     </td>
     <td>
     <pre>
-[{
+[ {
 		"_id": "T777",
 		"tagName": "Digital Marketing"
 	},
