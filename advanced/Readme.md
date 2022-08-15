@@ -230,5 +230,5 @@ db.comments.find({"tags": "T888"})
 
 Indexes are special data structures that store only a small subset of the data held in a collection’s documents separately from the documents themselves. In MongoDB, they are implemented in such a way that the database can quickly and efficiently traverse them when searching for values.
 
-Content Source: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-indexes-in-mongodb){target="_blank"}
+Content Source: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-indexes-in-mongodb&target=_blank)
 
