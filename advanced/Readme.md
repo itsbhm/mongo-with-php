@@ -266,6 +266,8 @@ Example:
 db.collegedb.dropIndex("country_1")
 ```
 
+----
+
 To create an Index for properties inside arrays:
 
 ```
@@ -277,6 +279,8 @@ To search:
 ```
 db.comments.find({"tags": "T777"})
 ```
+
+----
 
 To create Index on text:
 
