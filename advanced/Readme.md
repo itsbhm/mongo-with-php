@@ -232,3 +232,60 @@ Indexes are special data structures that store only a small subset of the data h
 
 Index Content Source: [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-indexes-in-mongodb)
 
+To create Index:
+
+Base Syntax:
+
+> db.collection.enseureIndex({"index_target": 1})
+
+Note: To specify sorting order 1 and -1 are used. 1 is used for ascending order while -1 is used for descending order.
+
+
+
+Example:
+
+```
+db.collegedb.ensureIndex({"country": 1})
+```
+
+To see the the available indexes: 
+
+```
+db.collegedb.getIndexes()
+```
+
+To Drop an Index:
+
+Base Syntax:
+
+> db.collection.dropIndex("index_name")
+
+Example:
+
+```
+db.collegedb.dropIndex("country_1")
+```
+
+To create an Index for properties inside arrays:
+
+```
+db.comments.ensureIndex({"tags": 1})
+```
+
+To search:
+
+```
+db.comments.find({"tags": "T777"})
+```
+
+To create Index on text:
+
+```
+db.comments.ensureIndex({"body": "text"})
+```
+
+To search:
+
+```
+db.comments.find({$text: {$search: "pain"}})
+```
