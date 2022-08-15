@@ -84,6 +84,14 @@ db.students.find()
 
 ----
 
+To see a more readable and cleaner output:
+
+```
+db.students.find().pretty()
+```
+
+----
+
 Let's add more documents:
 
 ```
