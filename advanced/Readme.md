@@ -270,7 +270,7 @@ db.collegedb.dropIndex("country_1")
 
 ----
 
-To create an Index for properties inside arrays:
+To create an Index for (Sub-Documents) properties inside arrays:
 
 ```
 db.comments.ensureIndex({"tags": 1})
