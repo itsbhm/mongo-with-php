@@ -254,6 +254,8 @@ To see the the available indexes:
 db.collegedb.getIndexes()
 ```
 
+----
+
 To Drop an Index:
 
 Base Syntax:
