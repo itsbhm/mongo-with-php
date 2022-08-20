@@ -1,0 +1,6 @@
+#Hidden System Files
+.DS_Store
+Thumbs.db
+
+#User Defined
+util/db.php

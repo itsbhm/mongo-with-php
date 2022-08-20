@@ -1,0 +1,23 @@
+[
+    {
+        "_id": "course-id",
+        "update_ts": "update-timestamp",
+        "tags": ["1234", "2325", "2352"],
+        "contents": [
+            {
+                "title": "main-title",
+                "content": ["content-1", "content-2", "content-n"]
+            },
+        
+            {
+                "title": "main-title",
+                "content": ["content-1", "content-2", "content-n"]
+            },
+            
+            {
+                "title": "main-title",
+                "content": ["content-1", "content-2", "content-n"]
+            }
+        ]
+    }
+]
